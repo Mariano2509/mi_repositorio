@@ -152,7 +152,7 @@ li {
     clear: both;
     display: table;
     content: "";
-    
+
 
 
 }
@@ -162,7 +162,6 @@ li {
     font-size: 4.5rem;
     padding: 20px;
     width: 100%;
-    justify-content: space-between;
     text-align: justify;
 }
 
@@ -184,6 +183,7 @@ li {
 .caja3 {
     padding: 20px;
     width: 26%;
+    font-size: large;
 }
 
 .caja4 {
@@ -212,20 +212,20 @@ li {
 
 }
 
-.bananainfo{
+.bananainfo {
 
     display: block;
     text-align: center;
     margin: auto;
     border-image: round;
-    
+
 }
 
-.infofotos{
+.infofotos {
 
-border-radius: 120px;
-margin-top: 20px;
-margin-bottom: 20px;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .swiper {
@@ -233,28 +233,56 @@ margin-bottom: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 500px;
-    justify-content: space-between;
-   
+}
 
-  }
-
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 320px;
     margin-left: 40px;
-   
-   
-  }
 
-  .swiper-slide img {
-    
+
+}
+
+.swiper-slide img {
+
     width: 100%;
     height: 500px;
     border-radius: 10px;
-  }
+}
+
+.productos{
+    height: 500px;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+
+.productos img{
+
+border-radius: 200px;
+
+}
 
 
+    .tituloproductos{
+        font-size: 1.7rem;
+        width: 780px;
+        height: 400px;
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 20px;
+        
+        }
+
+        .productos p{
+
+        font-size: large;
+
+        }
 
 
 /* footer */
@@ -373,6 +401,7 @@ ul {
     list-style-type: none;
 }
 
+
 /* MOBILE */
 
 @media screen and (max-width: 768px) {
@@ -450,7 +479,7 @@ ul {
 
         height: 350px;
         width: 350px;
-       
+
     }
 
     .swiper {
@@ -463,4 +492,4 @@ ul {
         justify-content: center;
         align-items: center;
 
-}
+    }

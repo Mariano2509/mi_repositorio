@@ -1,0 +1,540 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Gagalin-Regular";
+    src: url(../font/Gagalin-Regular.otf);
+}
+
+@font-face {
+    font-family: "bobby-jones";
+    src: url(../font/bobby-jones.otf);
+
+}
+
+/* grid conteiner */
+
+body {
+    font-family: "bobby-jones";
+    display: grid;
+    grid-template-areas:
+        "header nav nav"
+        "section section section"
+        "footer footer footer";
+    min-height: 100vh;
+    grid-template-columns: 380px 1fr 1fr;
+    grid-template-rows: 200px 1fr 270px;
+
+}
+
+/* header */
+
+header {
+    grid-area: header;
+    background-color: rgb(207, 183, 143);
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    margin-right: 0;
+
+
+}
+
+header img {
+
+    margin: 10px;
+}
+
+/* navbar */
+
+nav {
+    width: 100%;
+    grid-area: nav;
+    border-radius: 1px solid black;
+    background-color: rgb(207, 183, 143);
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    margin-right: 250px;
+    justify-content: center;
+
+
+
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem
+}
+
+li {
+    padding: 20px;
+
+}
+
+.enlaces1 {
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+
+.instagram {
+
+    padding-right: 50px;
+    margin-top: 80px;
+
+}
+
+.whatsapp {
+
+    padding-right: 50px;
+    margin-top: 80px;
+}
+
+.fotoinicio {
+    border-radius: 110px;
+    margin-bottom: 20px;
+
+}
+
+.titulo-fuente {
+
+    font-family: "Gagalin-Regular";
+    font-size: 25px;
+    display: inline-block;
+
+
+}
+
+/* section */
+
+.section1 {
+
+    grid-area: section;
+    background-color: rgb(215, 184, 108);
+    display: flex;
+    background-color: antiquewhite;
+    padding: 20px;
+
+
+}
+
+.filasnutri {
+
+    float: left;
+    width: 10%;
+    padding: 40px;
+
+
+}
+
+.englobo::after {
+    clear: both;
+    display: table;
+    content: "";
+
+
+
+}
+
+.tituloh1 {
+    font-family: "Gagalin-Regular";
+    font-size: 4.5rem;
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
+.caja1 {
+
+    padding: 20px;
+    width: 26%;
+    font-size: large;
+}
+
+.caja2 {
+
+    padding: 20px;
+    width: 26%;
+    font-size: large;
+}
+
+
+.caja3 {
+    padding: 20px;
+    width: 26%;
+    font-size: large;
+}
+
+.caja4 {
+
+    padding: 20px;
+    width: 22%;
+}
+
+.titulofont {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 20 40px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.fotosgrandes {
+    margin-top: 20px;
+
+
+}
+
+.bananainfo {
+
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-image: round;
+    padding: 20px;
+
+}
+
+.infofotos {
+
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.swiper {
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 500px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    margin-left: 40px;
+
+
+}
+
+.swiper-slide img {
+
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.productos {
+    height: 500px;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.productos img {
+
+    border-radius: 200px;
+
+}
+
+
+.tituloproductos {
+    font-size: 1.7rem;
+    width: 780px;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20px;
+
+}
+
+.productos p {
+
+    font-size: large;
+
+}
+
+.contenedorcontacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo-contacto{
+
+    padding: 20px;
+}
+.logoscontacto{
+    padding: 20px;
+}
+
+
+/* footer */
+
+footer {
+
+    grid-area: footer;
+    background-color: rgb(207, 183, 143);
+}
+
+footer .footercolumns {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.consulta {
+
+    font-size: 18px;
+
+
+}
+
+.seguir {
+
+    font-size: 18px;
+
+}
+
+.pie {
+
+
+    margin-top: 60px;
+
+
+}
+
+.linkscontactos {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.fotoig {
+
+    margin-left: 35px;
+}
+
+.fotowp {
+
+    margin-left: -20px;
+
+}
+
+.pie1 {
+
+    margin-top: 35px;
+}
+
+
+.pie2 {
+    margin-top: 40px;
+
+
+}
+
+form {
+
+    border-color: black;
+    border-radius: 10px;
+
+
+}
+
+label {
+
+    color: black;
+    font-weight: bold;
+
+
+}
+
+
+.fotoport {
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.holder {
+    border-color: black;
+    border-radius: 20px;
+
+
+}
+
+.enviar {
+
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: black;
+
+
+}
+
+
+
+ul {
+
+    list-style-type: none;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    body {
+
+        grid-template-areas:
+            "header"
+            "nav"
+            "section"
+            "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 80px 1fr auto 1fr;
+
+    }
+
+    nav ul {
+
+        flex-direction: column;
+        margin-bottom: 0px;
+        padding: 15px;
+
+    }
+
+    .section1 {
+
+        flex-direction: column;
+        overflow: 0;
+    }
+
+    .enlaces1 {
+
+        display: none;
+    }
+
+    .pie1 {
+
+        display: none;
+    }
+
+    .pie2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .linkscontactos {
+
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        grid-auto-rows: 100px;
+
+    }
+
+    .fotowp {
+
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+
+    .fotoport {
+
+        margin-left: 50px;
+
+    }
+
+    form {
+        margin: 20px;
+
+
+    }
+
+    .fotoinicio {
+
+        height: 350px;
+        width: 350px;
+
+    }
+
+    .swiper {
+        width: 250px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .tituloproductos {
+        width: 100%;
+        text-align: center;
+    }
+
+    .productos {
+
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .productos p {
+
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .logoscontacto {
+
+        padding: 20px;
+        justify-content: space-between;
+    }
+}

@@ -162,7 +162,7 @@ li {
     font-size: 4.5rem;
     padding: 20px;
     width: 100%;
-    text-align: justify;
+    text-align: center;
 }
 
 .caja1 {
@@ -300,6 +300,17 @@ li {
 }
 .logoscontacto{
     padding: 20px;
+}
+
+.contenedorindex{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+
 }
 
 

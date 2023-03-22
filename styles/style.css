@@ -113,6 +113,7 @@ li {
 
 .fotoinicio {
     border-radius: 110px;
+    margin-bottom: 20px;
 
 }
 
@@ -169,22 +170,27 @@ li {
 .caja1 {
 
     padding: 20px;
-
+    width: 26%;
+    font-size: large;
 }
 
 .caja2 {
 
     padding: 20px;
+    width: 26%;
+    font-size: large;
 }
+
 
 .caja3 {
     padding: 20px;
-
+    width: 26%;
 }
 
 .caja4 {
 
     padding: 20px;
+    width: 22%;
 }
 
 .titulofont {
@@ -418,7 +424,7 @@ ul {
 
         height: 350px;
         width: 350px;
-
+       
     }
 
 

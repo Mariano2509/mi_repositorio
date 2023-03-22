@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="./img/Portada.png" type="image/x-icon">
     <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
 
 </head>
 
@@ -65,13 +69,41 @@
         <div class="titulofont">
             <h1 class="tituloh1">
 
-                Amandelen Punto Sano</h1>
+                Amandelen Punto Sano</h1></div>
 
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./img/mixnueves.jpeg">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/mixdeportivo.jpeg"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/semillasdegirasol.jpeg"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/cereales.jpeg"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/pasasdeuva.jpeg">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/granolaberries.jpeg"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/chocolate.jpeg"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/mixffrutossecos.jpeg"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/Almendras tiradas.PNG"/>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
 
-
-            <img class="fotoinicio" src="./img/Almendras tiradas.PNG" alt="almendras" height="430px" width="530">
-
-        </div>
 
     </section>
 
@@ -125,6 +157,26 @@
 
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          loop:true, 
+        });
+      </script>
 </body>
 
 </html>

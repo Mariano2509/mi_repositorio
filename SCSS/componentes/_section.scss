@@ -1,0 +1,149 @@
+.section1 {
+    grid-area: section;
+    background-color: rgb(215, 184, 108);
+    display: flex;
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+  
+  .filasnutri {
+    float: left;
+    width: 10%;
+    padding: 40px;
+  }
+  
+  .englobo::after {
+    clear: both;
+    display: table;
+    content: "";
+  }
+  
+  .tituloh1 {
+    font-family: "Gagalin-Regular";
+    font-size: 4.5rem;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .caja1 {
+    padding: 20px;
+    width: 26%;
+    font-size: large;
+  }
+  
+  .caja2 {
+    padding: 20px;
+    width: 26%;
+    font-size: large;
+  }
+  
+  .caja3 {
+    padding: 20px;
+    width: 26%;
+    font-size: large;
+  }
+  
+  .caja4 {
+    padding: 20px;
+    width: 22%;
+  }
+  
+  .titulofont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 20 40px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .fotosgrandes {
+    margin-top: 20px;
+  }
+  
+  .bananainfo {
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-image: round;
+    padding: 20px;
+  }
+  
+  .infofotos {
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .swiper {
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    margin-left: 40px;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .productos {
+    height: 500px;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  .productos img {
+    border-radius: 200px;
+  }
+  .productos p {
+    font-size: large;
+  }
+  
+  .tituloproductos {
+    font-size: 1.7rem;
+    width: 780px;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+  
+  .contenedorcontacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .titulo-contacto {
+    padding: 20px;
+  }
+  
+  .logoscontacto {
+    padding: 20px;
+  }
+  
+  .contenedorindex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }

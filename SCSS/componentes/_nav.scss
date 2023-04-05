@@ -1,0 +1,56 @@
+nav {
+    width: 100%;
+    grid-area: nav;
+    border-radius: 1px solid black;
+    background-color: rgb(207, 183, 143);
+    display: flex;
+    justify-content: center;
+        
+    ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    margin-right: 250px;
+    justify-content: center;
+
+    ul a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+      }
+}
+}
+
+  
+  
+  li {
+    padding: 20px;
+  }
+  
+  .enlaces1 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .instagram {
+    padding-right: 50px;
+    margin-top: 80px;
+  }
+  
+  .whatsapp {
+    padding-right: 50px;
+    margin-top: 80px;
+  }
+  
+  .fotoinicio {
+    border-radius: 110px;
+    margin-bottom: 20px;
+  }
+  
+  .titulo-fuente {
+    font-family: "Gagalin-Regular";
+    font-size: 25px;
+    display: inline-block;
+  }

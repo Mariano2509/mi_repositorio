@@ -1,28 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "Gagalin-Regular";
-  src: url(../font/Gagalin-Regular.otf);
-}
-@font-face {
-  font-family: "bobby-jones";
-  src: url(../font/bobby-jones.otf);
-}
-/* grid conteiner */
-body {
-  font-family: "bobby-jones";
-  display: grid;
-  grid-template-areas: "header nav nav" "section section section" "footer footer footer";
-  min-height: 100vh;
-  grid-template-columns: 380px 1fr 1fr;
-  grid-template-rows: 200px 1fr 270px;
-}
-
-/* header */
 header {
   grid-area: header;
   background-color: rgb(207, 183, 143);
@@ -31,12 +6,10 @@ header {
   align-items: center;
   margin-right: 0;
 }
-
 header img {
   margin: 10px;
 }
 
-/* navbar */
 nav {
   width: 100%;
   grid-area: nav;
@@ -54,8 +27,7 @@ nav ul {
   margin-right: 250px;
   justify-content: center;
 }
-
-ul a {
+nav ul ul a {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
@@ -91,7 +63,87 @@ li {
   display: inline-block;
 }
 
-/* section */
+footer {
+  grid-area: footer;
+  background-color: rgb(207, 183, 143);
+}
+footer .footercolumns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.consulta {
+  font-size: 18px;
+}
+
+.seguir {
+  font-size: 18px;
+}
+
+.pie {
+  margin-top: 60px;
+}
+
+.linkscontactos {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.fotoig {
+  margin-left: 35px;
+}
+
+.fotowp {
+  margin-left: -20px;
+}
+
+.pie1 {
+  margin-top: 35px;
+}
+
+.pie2 {
+  margin-top: 40px;
+}
+
+form {
+  border-color: black;
+  border-radius: 10px;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+}
+
+.fotoport {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.holder {
+  border-color: black;
+  border-radius: 20px;
+}
+
+.enviar {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
 .section1 {
   grid-area: section;
   background-color: rgb(215, 184, 108);
@@ -186,6 +238,7 @@ li {
   width: 320px;
   margin-left: 40px;
 }
+
 .swiper-slide img {
   width: 100%;
   height: 500px;
@@ -200,9 +253,11 @@ li {
   justify-content: center;
   margin-top: 150px;
 }
+
 .productos img {
   border-radius: 200px;
 }
+
 .productos p {
   font-size: large;
 }
@@ -242,81 +297,28 @@ li {
   width: 100%;
 }
 
-/* footer */
-footer {
-  grid-area: footer;
-  background-color: rgb(207, 183, 143);
-}
-footer .footercolumns {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  padding: 0 20px;
-  margin-bottom: 50px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.consulta {
-  font-size: 18px;
+@font-face {
+  font-family: "Gagalin-Regular";
+  src: url(../font/Gagalin-Regular.otf);
 }
-
-.seguir {
-  font-size: 18px;
+@font-face {
+  font-family: "bobby-jones";
+  src: url(../font/bobby-jones.otf);
 }
-
-.pie {
-  margin-top: 60px;
-}
-
-.linkscontactos {
-  margin-left: 50px;
-  margin-top: 20px;
-}
-
-.fotoig {
-  margin-left: 35px;
-}
-
-.fotowp {
-  margin-left: -20px;
-}
-
-.pie1 {
-  margin-top: 35px;
-}
-
-.pie2 {
-  margin-top: 40px;
-}
-
-form {
-  border-color: black;
-  border-radius: 10px;
-}
-
-label {
-  color: black;
-  font-weight: bold;
-}
-
-.fotoport {
-  margin-top: 20px;
-  margin-left: 30px;
-}
-
-.holder {
-  border-color: black;
-  border-radius: 20px;
-}
-
-.enviar {
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
-  color: black;
-}
-
-ul {
-  list-style-type: none;
+/* grid conteiner */
+body {
+  font-family: "bobby-jones";
+  display: grid;
+  grid-template-areas: "header nav nav" "section section section" "footer footer footer";
+  min-height: 100vh;
+  grid-template-columns: 380px 1fr 1fr;
+  grid-template-rows: 200px 1fr 270px;
 }
 
 /* MOBILE */

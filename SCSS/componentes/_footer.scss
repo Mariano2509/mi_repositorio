@@ -1,0 +1,85 @@
+footer {
+    grid-area: footer;
+    background-color: rgb(207, 183, 143);
+  
+    .footercolumns {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-bottom: 50px;
+      }
+
+}
+  .consulta {
+    font-size: 18px;
+  }
+  
+  .seguir {
+    font-size: 18px;
+  }
+  
+  .pie {
+    margin-top: 60px;
+  }
+  
+  .linkscontactos {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .fotoig {
+    margin-left: 35px;
+  }
+  
+  .fotowp {
+    margin-left: -20px;
+  }
+  
+  .pie1 {
+    margin-top: 35px;
+  }
+  
+  .pie2 {
+    margin-top: 40px;
+  }
+  
+  form {
+    border-color: black;
+    border-radius: 10px;
+  }
+  
+  label {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .fotoport {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .holder {
+    border-color: black;
+    border-radius: 20px;
+  }
+  
+  .enviar {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+
+    a{
+
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;  
+
+    }
+
+}
